@@ -1,0 +1,81 @@
+
+*{
+    color: white;
+    font-family: Arial
+}
+header{
+    font-size: 20px;
+    font-family: Arial;
+    color: white;
+}
+
+body{ 
+    background-image: url("Img/BG18.jpg");
+    background-position: center;
+    
+}
+.socio{
+    
+    position: absolute;
+    right: 15px;
+    top: 55px;
+    bottom: 10px;
+
+}
+.socio img{
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+.socio:hover img{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.filo{
+    position: absolute;
+    right: 225px;
+    top: 55px;
+    bottom: 10px;
+}
+
+.filo img{
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+
+}
+
+.filo:hover img{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
+
+.avatar{
+position: absolute;
+left: 0px;
+top: 200px;
+
+}
+
+.nome{
+    position: absolute;
+    top: 145px;
+
+}
+
+.Titulo{
+    color: white;
+}
+ol{
+    list-style: none;
+    position: absolute;
+    bottom: 170px;
+    left: -30px;
+}

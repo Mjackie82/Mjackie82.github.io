@@ -1,0 +1,119 @@
+
+*{
+    color: white;
+    font-family: Arial
+    
+    
+}
+
+body{
+
+    background-image: url("../CSS/Img/BG18.jpg");
+}
+
+.wrapper{
+    display: grid;
+    
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap:  1em;
+
+    justify-items: stretch;
+    align-items: stretch;
+
+}
+
+.wrapper > div{
+    background:rgba(255, 255, 255, .3);
+    border-radius: 20px;
+    padding: 1em;
+
+}
+
+.wrapper > div:nth-child(odd){
+    background:rgba(255, 255, 255, 0.5);
+}
+
+.box1{
+    align-self: stretch;
+    grid-column: 2-3;
+    text-align: justify;
+    font-size: 20px;
+    
+
+}
+.box2{
+    align-self: stretch;
+    grid-column: 2-3;
+    text-align: justify;
+    font-size: 20px;
+    
+   
+}
+
+.box3{
+    grid-column: 2-3;
+    align-self: stretch;
+    text-align: justify;
+    font-size: 20px;
+   
+
+}
+
+
+p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    
+}
+
+
+li{
+    color: white;
+    list-style: none;
+}
+
+footer{
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.3);
+    border-radius: 20px;
+    
+    
+
+}
+
+
+
+.NameVoltar{
+    font-size: 20px;
+    position: relative;
+    
+    left: 20px;
+    bottom: -5px;
+}
+.NamePagPrinc{
+    position: relative;
+    
+    left: 47%;
+    font-size: 20px;
+    bottom: -5px;
+}
+
+
+.BoxSumary{
+    background-color: rgba(255, 0, 0, 0.3);
+    height: 85px;
+    width: 150px;
+    position: absolute;
+    left: -20px;
+    border-radius: 20px;
+    
+}
+.ajustePos{
+    position: relative;
+    left: -0px;
+    text-decoration: none;
+}
+a{
+    list-style: none;
+}
